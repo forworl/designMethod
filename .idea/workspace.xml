@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b8b4d6e-82a5-4620-b4a0-f4cab578fa15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/designmethod/BaiShiFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/designmethod/CocaColaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/designmethod/FactoryMethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/designmethod/domain/BaiShiColaBottle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/designmethod/domain/BaiShiColaBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/designmethod/domain/Bottle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/designmethod/domain/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/designmethod/domain/CocaColaBottle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/designmethod/domain/CocaColaBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/designmethod/ChouXiangFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/designmethod/BaiShiFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/designmethod/BaiShiFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/designmethod/CocaColaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/designmethod/CocaColaFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +71,44 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.FactoryMethodTest.getCola">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.designmethod.domain" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ChouXiangFactoryTest.getBaiShiCola">
+    <configuration name="ChouXiangFactoryTest.getBaiShiCola" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="designMethod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.designmethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.designmethod" />
+      <option name="MAIN_CLASS_NAME" value="com.example.designmethod.ChouXiangFactoryTest" />
+      <option name="METHOD_NAME" value="getBaiShiCola" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChouXiangFactoryTest.getCocaCola" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="designMethod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.designmethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.designmethod" />
+      <option name="MAIN_CLASS_NAME" value="com.example.designmethod.ChouXiangFactoryTest" />
+      <option name="METHOD_NAME" value="getCocaCola" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FactoryMethodTest.getCola" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="designMethod" />
       <extension name="coverage">
@@ -107,6 +150,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ChouXiangFactoryTest.getBaiShiCola" />
+        <item itemvalue="JUnit.ChouXiangFactoryTest.getCocaCola" />
         <item itemvalue="JUnit.FactoryMethodTest.getCola" />
         <item itemvalue="JUnit.simpleFactoryTest.getCola" />
       </list>
@@ -120,7 +165,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683963704883</updated>
-      <workItem from="1683963706930" duration="2041000" />
+      <workItem from="1683963706930" duration="2932000" />
     </task>
     <servers />
   </component>
