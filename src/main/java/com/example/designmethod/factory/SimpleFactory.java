@@ -1,8 +1,8 @@
-package com.example.designmethod;
+package com.example.designmethod.factory;
 
-import com.example.designmethod.domain.BaiShiCola;
-import com.example.designmethod.domain.CocaCola;
-import com.example.designmethod.domain.Cola;
+import com.example.designmethod.factory.domain.BaiShiCola;
+import com.example.designmethod.factory.domain.CocaCola;
+import com.example.designmethod.factory.domain.Cola;
 
 public class SimpleFactory {
 
