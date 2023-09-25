@@ -1,6 +1,8 @@
 package com.example.designmethod;
 
-import com.example.designmethod.domain.Cola;
+import com.example.designmethod.factory.BaiShiFactory;
+import com.example.designmethod.factory.CocaColaFactory;
+import com.example.designmethod.factory.domain.Cola;
 import org.junit.jupiter.api.Test;
 
 public class FactoryMethodTest {

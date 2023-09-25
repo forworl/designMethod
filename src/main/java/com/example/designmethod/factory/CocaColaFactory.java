@@ -1,6 +1,6 @@
-package com.example.designmethod;
+package com.example.designmethod.factory;
 
-import com.example.designmethod.domain.*;
+import com.example.designmethod.factory.domain.*;
 
 public class CocaColaFactory {
 

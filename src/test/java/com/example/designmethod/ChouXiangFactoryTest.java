@@ -1,8 +1,10 @@
 package com.example.designmethod;
 
-import com.example.designmethod.domain.Bottle;
-import com.example.designmethod.domain.Box;
-import com.example.designmethod.domain.Cola;
+import com.example.designmethod.factory.BaiShiFactory;
+import com.example.designmethod.factory.CocaColaFactory;
+import com.example.designmethod.factory.domain.Bottle;
+import com.example.designmethod.factory.domain.Box;
+import com.example.designmethod.factory.domain.Cola;
 import org.junit.jupiter.api.Test;
 
 public class ChouXiangFactoryTest {
